@@ -19,3 +19,4 @@ Make sure you have the following Python packages installed:
 
 ```bash
 pip install google-generativeai python-dotenv
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
