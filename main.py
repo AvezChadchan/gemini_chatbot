@@ -13,9 +13,8 @@ chat = model.start_chat()
 
 print("Chat with gemini! Type 'exit' to quit")
 
-while True:
-    user_input=input("You: ")
-    if user_input.lower() == "exit":
-        break
-    response = chat.send_message(user_input)
-    print("Gemini: ",response.text)
+user_input=input("You: ")
+if user_input.lower() == "exit":
+    break
+response = chat.send_message(user_input)
+print("Gemini: ",response.text)
